@@ -1,1 +1,23 @@
-
+{
+  "name": "rgblib",
+  "version": "1.0.0-beta",
+  "description": "RGB Lib Javascript,
+  "homepage": "https://github.com/PoritcoExchange/rgb-lib-javascript",
+  "keywords": [
+    "bitcoin",
+    "rgb",
+    "lightning-network",
+    "smartcontracts"
+  ],
+  "main": "rgblib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "cargo build --release --manifest-path ../../librgb/Cargo.toml && swig -javascript -node -c++ swig.i",
+    "install": "node ./node_modules/node-gyp/bin/node-gyp.js rebuild"
+  },
+  "author": "Portico Labs",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "node-gyp": "^7.1.0"
+  }
+}
