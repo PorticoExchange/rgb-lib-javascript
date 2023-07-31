@@ -11,8 +11,8 @@ In this we'll have follow core fuctions
 - Rceive
 - UTXO
 - Invoice
-- OP_RETURN and tAPROOT
-- AluVm
+- OP_RETURN and Taproot
+- AluVM
 - Client-Side-Validation
 
 ## Roadmap
