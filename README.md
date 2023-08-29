@@ -18,6 +18,4 @@ In this we'll have follow core fuctions
 ## Roadmap
 
 - [ ] Lightning Network
-- [ ] Testnet
-- [ ] Mainnet
 - [ ] Core Functions
